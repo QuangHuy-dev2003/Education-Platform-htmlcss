@@ -56,7 +56,7 @@ a {
 }
 
 .heading.lv2 {
-    font-size: 38px;
+    font-size: 3.8rem;
     line-height: 1.26; /* 126.316% */
 }
 
@@ -661,4 +661,84 @@ a {
 .blog .dot.active {
     background: var(--primary-color);
     cursor: default;
+}
+
+/* ============================= Footer ========================== */
+.footer {
+    padding: 96px 135px 0;
+    background: #2e2100;
+}
+
+.footer .row {
+    display: flex;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #59554b;
+}
+
+.footer .row .column {
+    width: 21.6%;
+}
+
+.footer .row .column:first-child {
+    width: 35%;
+}
+
+.footer .row .column .desc {
+    margin-top: 18px;
+    max-width: 267px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    line-height: 1.85; /* 185.714% */
+}
+
+.footer .row .column .socials {
+    display: flex;
+    margin-top: 18px;
+    gap: 18px;
+}
+
+
+.footer .row .column .title {
+    display: inline-block;
+    padding: 0 48px 14px 0;
+    border-bottom: 1px solid #59554b;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1.75; /* 175% */
+    font-weight: 600;
+}
+
+.footer .list {
+    margin-top: 28px;
+}
+
+.footer .list li a {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
+}
+
+.footer .list li:last-child a {
+    margin-bottom: 0;
+}
+
+.footer .list strong {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.85; /* 185.714% */
+}
+
+.footer .copyright {
+    padding: 28px 0;
+}
+
+.footer .copyright p {
+    color: #807d74;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.85; /* 185.714% */
 }
